@@ -58,7 +58,7 @@ btnHold.addEventListener("click", () => {
   document.querySelector(`#score--${activePlayer}`).textContent =
     score[activePlayer];
   // 2. check if player total score is greater than 100
-  if (score[activePlayer] >= 10) {
+  if (score[activePlayer] >= 100) {
     //   .player--winner
     isGameOn = false;
     diceEl.classList.add("dice-hidden");
